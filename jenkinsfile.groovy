@@ -4,6 +4,7 @@ node {
 
     stage ('start') {
        checkout scm
+       
         // Get the maven tool.
         // ** NOTE: This 'M3' maven tool must be configured
         // **       in the global configuration
