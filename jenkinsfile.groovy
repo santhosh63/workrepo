@@ -4,7 +4,6 @@ node {
 
     stage ('start') {
        checkout scm
-       git 'https://github.com/santhosh63/test_repo.git'
         // Get the maven tool.
         // ** NOTE: This 'M3' maven tool must be configured
         // **       in the global configuration
